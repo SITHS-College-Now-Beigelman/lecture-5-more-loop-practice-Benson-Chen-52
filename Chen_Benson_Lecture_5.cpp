@@ -38,7 +38,7 @@ int main()
             account_money = debit_money;
             total_debit_money += money_in_transaction;
         }
-        if(type_of_transaction == 1)
+        if(type_of_transaction == 0)
         {
             credit_money = (account_money + money_in_transaction);
             cout << "\nYou have thus much money left in your account after this transaction: " 
